@@ -2,69 +2,18 @@ const products = [
   {id:'black-gold',name:'South Central Black & Gold',price:125,category:['mens'],image:'assets/products/black-gold.jpg',tag:'LIMITED EDITION',description:'Black matching hoodie and sweatpants with gold Polo Playas and South Central graphics.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}},
   {id:'powder-blue',name:'Powder Blue Collection',price:125,category:['mens','rare'],image:'assets/products/powder-blue.jpg',tag:'VERY RARE COLORWAY',description:'Powder-blue matching set with black-and-white Polo Playas graphics.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}},
   {id:'deep-red',name:'Deep Red Collection',price:125,category:['mens'],image:'assets/products/deep-red.jpg',tag:'LIMITED EDITION',description:'Deep-red matching hoodie and sweatpants with dimensional red-and-black graphics.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}},
- 
   {id:'white-gold',name:'White & Gold Collection',price:130,category:['mens'],image:'assets/products/white-gold.jpg',tag:'LIMITED COLORWAY',description:'White matching set finished with metallic-style gold Polo Playas graphics.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}},
- 
   {id:'rare-green',name:'Rare Green Splatter',price:145,category:['mens','rare'],image:'assets/products/rare-green.jpg',tag:'RARE 001 / 1982',description:'Forest-green matching set with cream-and-gold splatter graphics.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:3,S:5,M:7,L:7,XL:5,XXL:3}},
   {id:'velocity-purple',name:'Velocity Purple Collection',price:145,category:['mens','rare'],image:'assets/products/velocity-purple.jpg',tag:'VERY RARE COLORWAY',description:'Purple lightning set with icy teal graphics and South Central details.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:3,S:5,M:7,L:7,XL:5,XXL:3}},
   {id:'womens-white-pink',name:"Women's White & Pink Set",price:100,category:['womens'],image:'assets/products/womens-white-pink.jpg',tag:"WOMEN'S COLLECTION",description:'White cropped hoodie and shorts set with bright-pink Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
   {id:'womens-pink-red',name:"Women's Pink & Red Set",price:100,category:['womens'],image:'assets/products/womens-pink-red.jpg',tag:"WOMEN'S COLLECTION",description:'Pink cropped hoodie and shorts set with red graphics and contrast trim.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
-  {id:'womens-purple',name:"Women's Purple Set",price:100,category:['womens'],image:'assets/products/womens-purple.jpg',tag:"WOMEN'S COLLECTION",description:'Purple cropped hoodie and shorts set with white Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}}
-},
-  id: 'black-white',
-  name: 'Black & White Collection',
-  price: 125,
-  category: ['mens'],
-  image: 'assets/products/black-white.jpg',
-  tag: 'LIMITED COLORWAY',
-  description: 'Black matching set with crisp white Polo Playas graphics.',
-  sizes: ['XS','S','M','L','XL','XXL'],
-  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
-},
-{
-  id: 'white-black',
-  name: 'White & Black Collection',
-  price: 125,
-  category: ['mens'],
-  image: 'assets/products/white-black.jpg',
-  tag: 'LIMITED COLORWAY',
-  description: 'White matching set with bold black Polo Playas graphics.',
-  sizes: ['XS','S','M','L','XL','XXL'],
-  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
-},
-{
-  id: 'snes-gray-purple',
-  name: 'SNES Gray & Purple Collection',
-  price: 135,
-  category: ['mens','rare'],
-  image: 'assets/products/snes-gray-purple.jpg',
-  tag: 'SPECIAL EDITION',
-  description: 'Gray matching set with purple graphics inspired by classic game-console colors.',
-  sizes: ['XS','S','M','L','XL','XXL'],
-  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
-},
-{
-  id: 'playstation-black-multicolor',
-  name: 'PlayStation Black Multicolor',
-  price: 135,
-  category: ['mens','rare'],
-  image: 'assets/products/playstation-black-multicolor.jpg',
-  tag: 'SPECIAL EDITION',
-  description: 'Black matching set with multicolor detailing inspired by classic PlayStation colors.',
-  sizes: ['XS','S','M','L','XL','XXL'],
-  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
-},
-{
-  id: 'orange-white',
-  name: 'Orange & White Collection',
-  price: 125,
-  category: ['mens'],
-  image: 'assets/products/orange-white.jpg',
-  tag: 'LIMITED COLORWAY',
-  description: 'Orange matching hoodie and sweatpants with clean white Polo Playas graphics.',
-  sizes: ['XS','S','M','L','XL','XXL'],
-  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
-}]
+  {id:'womens-purple',name:"Women's Purple Set",price:100,category:['womens'],image:'assets/products/womens-purple.jpg',tag:"WOMEN'S COLLECTION",description:'Purple cropped hoodie and shorts set with white Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
+  {id:'black-white',name:'Black & White Collection',price:125,category:['mens'],image:'assets/products/black-white.jpg',tag:'LIMITED COLORWAY',description:'Black matching set with crisp white Polo Playas graphics.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}},
+  {id:'white-black',name:'White & Black Collection',price:125,category:['mens'],image:'assets/products/white-black.jpg',tag:'LIMITED COLORWAY',description:'White matching set with bold black Polo Playas graphics.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}},
+  {id:'snes-gray-purple',name:'SNES Gray & Purple Collection',price:135,category:['mens','rare'],image:'assets/products/snes-gray-purple.jpg',tag:'SPECIAL EDITION',description:'Gray matching set with purple graphics inspired by classic game-console colors.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}},
+  {id:'playstation-black-multicolor',name:'PlayStation Black Multicolor',price:135,category:['mens','rare'],image:'assets/products/playstation-black-multicolor.jpg',tag:'SPECIAL EDITION',description:'Black matching set with multicolor detailing inspired by classic PlayStation colors.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}},
+  {id:'orange-white',name:'Orange & White Collection',price:125,category:['mens'],image:'assets/products/orange-white.jpg',tag:'LIMITED COLORWAY',description:'Orange matching hoodie and sweatpants with clean white Polo Playas graphics.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:10,L:10,XL:7,XXL:4}}
+];
 const $=s=>document.querySelector(s);const $$=s=>[...document.querySelectorAll(s)];const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
 let cart=JSON.parse(localStorage.getItem('pp_cart')||'[]');let currentFilter='all',currentSearch='',currentSort='featured',activeProduct=null,promo=localStorage.getItem('pp_promo')||'';
 function saveCart(){localStorage.setItem('pp_cart',JSON.stringify(cart));renderCart()}
@@ -74,18 +23,18 @@ function renderProducts(){let list=products.filter(p=>(currentFilter==='all'||p.
 function addToCart(id,size){const p=products.find(x=>x.id===id);size=size || (p.sizes.includes('L') ? 'L' : p.sizes[0]);if(!p.sizes.includes(size))size=p.sizes[0];const available=stockFor(p,size),existing=cart.find(x=>x.id===id&&x.size===size);if((existing?.qty||0)>=available){alert('That size has reached the available quantity.');return}existing?existing.qty++:cart.push({id,size,qty:1});saveCart();openCart()}
 function updateQty(index,delta){const item=cart[index],p=products.find(x=>x.id===item.id);item.qty=Math.max(0,Math.min(stockFor(p,item.size),item.qty+delta));if(!item.qty)cart.splice(index,1);saveCart()}
 function cartSubtotal(){return cart.reduce((s,i)=>s+products.find(p=>p.id===i.id).price*i.qty,0)}function discount(){return promo==='PLAYA10'?cartSubtotal()*.1:0}
-function renderCart(){const count=cart.reduce((s,i)=>s+i.qty,0);$('#bagCount').textContent=count;$('#emptyCart').hidden=cart.length>0;$('#cartSummary').hidden=!cart.length;$('#cartItems').innerHTML=cart.map((i,n)=>{const p=products.find(x=>x.id===i.id);return `<article class="cart-item"><img src="${p.image}" alt="${p.name}"><div><h3>${p.name}</h3><p>Size ${i.size} · ${money(p.price)}</p><div class="qty"><button data-qty="${n}" data-delta="-1">−</button><span>${i.qty}</span><button data-qty="${n}" data-delta="1">+</button></div></div><button class="remove" data-remove="${n}">Remove</button></article>`}).join('');const total=cartSubtotal()-discount();$('#cartSubtotal').textContent=money(cartSubtotal());$('#cartTotal').textContent=money(total);$('#promoStatus').textContent=promo==='PLAYA10'?'PLAYA10 applied: 10% off.':'';renderCheckoutSummary()}
+function renderCart(){const count=cart.reduce((s,i)=>s+i.qty,0);$('#bagCount').textContent=count;$('#emptyCart').hidden=cart.length>0;$('#cartSummary').hidden=!cart.length;$('#cartItems').innerHTML=cart.map((i,n)=>{const p=products.find(x=>x.id===i.id);return `<article class="cart-item"><img src="${p.image}" alt="${p.name}"><div><h3>${p.name}</h3><p>Size ${i.size} Â· ${money(p.price)}</p><div class="qty"><button data-qty="${n}" data-delta="-1">â</button><span>${i.qty}</span><button data-qty="${n}" data-delta="1">+</button></div></div><button class="remove" data-remove="${n}">Remove</button></article>`}).join('');const total=cartSubtotal()-discount();$('#cartSubtotal').textContent=money(cartSubtotal());$('#cartTotal').textContent=money(total);$('#promoStatus').textContent=promo==='PLAYA10'?'PLAYA10 applied: 10% off.':'';renderCheckoutSummary()}
 function openCart(){$('#backdrop').hidden=false;requestAnimationFrame(()=>$('#cartDrawer').classList.add('open'));document.body.style.overflow='hidden'}function closeCart(){$('#cartDrawer').classList.remove('open');document.body.style.overflow='';setTimeout(()=>$('#backdrop').hidden=true,250)}
 function viewProduct(id){const p=products.find(x=>x.id===id);activeProduct=p;$('#dialogImage').src=p.image;$('#dialogImage').alt=p.name;$('#dialogTag').textContent=p.tag;$('#dialogName').textContent=p.name;$('#dialogPrice').textContent=money(p.price);$('#dialogDescription').textContent=p.description;$('#dialogSize').innerHTML=p.sizes.map(s=>`<option value="${s}">${s}</option>`).join('');updateDialogStock();$('#productDialog').showModal()}
 function updateDialogStock(){if(!activeProduct)return;const size=$('#dialogSize').value||activeProduct.sizes[0];const left=stockFor(activeProduct,size)-cartQty(activeProduct.id,size);$('#dialogStock').textContent=left>0?`${left} available in ${size}`:`${size} sold out`;$('#dialogAdd').disabled=left<=0;$('#dialogAdd').textContent=left>0?'Add to bag':'Sold out'}
 function orderMath(){const subtotal=cartSubtotal()-discount();const ship=$('input[name="delivery"]:checked')?.value==='pickup'||subtotal>=150?0:12;const tax=subtotal*.0775;return{subtotal,ship,tax,total:subtotal+ship+tax}}
-function renderCheckoutSummary(){if(!$('#checkoutItems'))return;$('#checkoutItems').innerHTML=cart.map(i=>{const p=products.find(x=>x.id===i.id);return `<div class="checkout-line"><img src="${p.image}"><span>${p.name}<br>Size ${i.size} × ${i.qty}</span><strong>${money(p.price*i.qty)}</strong></div>`}).join('');const m=orderMath();$('#checkoutSubtotal').textContent=money(m.subtotal);$('#checkoutShipping').textContent=m.ship?money(m.ship):'Free';$('#checkoutTax').textContent=money(m.tax);$('#checkoutTotal').textContent=money(m.total)}
+function renderCheckoutSummary(){if(!$('#checkoutItems'))return;$('#checkoutItems').innerHTML=cart.map(i=>{const p=products.find(x=>x.id===i.id);return `<div class="checkout-line"><img src="${p.image}"><span>${p.name}<br>Size ${i.size} Ã ${i.qty}</span><strong>${money(p.price*i.qty)}</strong></div>`}).join('');const m=orderMath();$('#checkoutSubtotal').textContent=money(m.subtotal);$('#checkoutShipping').textContent=m.ship?money(m.ship):'Free';$('#checkoutTax').textContent=money(m.tax);$('#checkoutTotal').textContent=money(m.total)}
 function openCheckout(){if(!cart.length)return;closeCart();renderCheckoutSummary();$('#checkoutDialog').showModal()}
 function validateAddress(fd){if(fd.get('delivery')==='pickup')return true;return ['address','city','state','zip'].every(k=>String(fd.get(k)||'').trim())}
-function placeOrder(e){e.preventDefault();const fd=new FormData(e.currentTarget);if(!validateAddress(fd)){ $('#checkoutError').textContent='Please complete the shipping address.';return}const m=orderMath(),order={number:`PP-${Date.now().toString().slice(-7)}`,date:new Date().toISOString(),customer:Object.fromEntries(fd.entries()),items:cart.map(i=>({...i,name:products.find(p=>p.id===i.id).name,price:products.find(p=>p.id===i.id).price})),promo,totals:m,status:'Demo — payment pending'};const orders=JSON.parse(localStorage.getItem('pp_orders')||'[]');orders.unshift(order);localStorage.setItem('pp_orders',JSON.stringify(orders));cart=[];promo='';localStorage.removeItem('pp_promo');saveCart();$('#checkoutDialog').close();$('#successText').textContent=`Demo order ${order.number} was saved to this browser. The store owner can view it in the demo dashboard.`;$('#successDialog').showModal();e.currentTarget.reset()}
+function placeOrder(e){e.preventDefault();const fd=new FormData(e.currentTarget);if(!validateAddress(fd)){ $('#checkoutError').textContent='Please complete the shipping address.';return}const m=orderMath(),order={number:`PP-${Date.now().toString().slice(-7)}`,date:new Date().toISOString(),customer:Object.fromEntries(fd.entries()),items:cart.map(i=>({...i,name:products.find(p=>p.id===i.id).name,price:products.find(p=>p.id===i.id).price})),promo,totals:m,status:'Demo â payment pending'};const orders=JSON.parse(localStorage.getItem('pp_orders')||'[]');orders.unshift(order);localStorage.setItem('pp_orders',JSON.stringify(orders));cart=[];promo='';localStorage.removeItem('pp_promo');saveCart();$('#checkoutDialog').close();$('#successText').textContent=`Demo order ${order.number} was saved to this browser. The store owner can view it in the demo dashboard.`;$('#successDialog').showModal();e.currentTarget.reset()}
 $$('#filters button').forEach(b=>b.onclick=()=>{$$('#filters button').forEach(x=>x.classList.remove('active'));b.classList.add('active');currentFilter=b.dataset.filter;renderProducts()});$('#sortSelect').onchange=e=>{currentSort=e.target.value;renderProducts()};
 document.addEventListener('click',e=>{const a=e.target.closest('[data-add]'),v=e.target.closest('[data-view]'),q=e.target.closest('[data-qty]'),r=e.target.closest('[data-remove]');if(a)addToCart(a.dataset.add);if(v)viewProduct(v.dataset.view);if(q)updateQty(+q.dataset.qty,+q.dataset.delta);if(r){cart.splice(+r.dataset.remove,1);saveCart()}});
 $('#bagButton').onclick=openCart;$('#cartClose').onclick=closeCart;$('#backdrop').onclick=closeCart;$('#emptyShop').onclick=closeCart;$('#productClose').onclick=()=>$('#productDialog').close();$('#dialogSize').onchange=updateDialogStock;$('#dialogAdd').onclick=()=>{addToCart(activeProduct.id,$('#dialogSize').value);$('#productDialog').close()};$('#sizeGuideButton').onclick=()=>$('#sizeDialog').showModal();$('#sizeClose').onclick=()=>$('#sizeDialog').close();
 $('#promoButton').onclick=()=>{const code=$('#promoInput').value.trim().toUpperCase();if(code==='PLAYA10'){promo=code;localStorage.setItem('pp_promo',promo);renderCart()}else{$('#promoStatus').textContent='Code not recognized. Demo code: PLAYA10'}};$('#checkoutButton').onclick=openCheckout;$('#checkoutClose').onclick=()=>$('#checkoutDialog').close();$('#checkoutForm').onsubmit=placeOrder;$$('input[name="delivery"]').forEach(x=>x.onchange=()=>{$('#addressFields').hidden=x.checked&&x.value==='pickup';renderCheckoutSummary()});$('#successClose').onclick=()=>$('#successDialog').close();
-$('#newsletterForm').onsubmit=e=>{e.preventDefault();const emails=JSON.parse(localStorage.getItem('pp_emails')||'[]');emails.push({email:$('#newsletterEmail').value,date:new Date().toISOString()});localStorage.setItem('pp_emails',JSON.stringify(emails));$('#newsletterStatus').textContent='You’re on the list.';e.currentTarget.reset()};
+$('#newsletterForm').onsubmit=e=>{e.preventDefault();const emails=JSON.parse(localStorage.getItem('pp_emails')||'[]');emails.push({email:$('#newsletterEmail').value,date:new Date().toISOString()});localStorage.setItem('pp_emails',JSON.stringify(emails));$('#newsletterStatus').textContent='Youâre on the list.';e.currentTarget.reset()};
 $('#searchToggle').onclick=()=>{$('#searchPanel').hidden=false;$('#searchInput').focus()};$('#searchClose').onclick=()=>{$('#searchPanel').hidden=true};$('#searchInput').oninput=e=>{currentSearch=e.target.value;renderProducts();location.hash='shop'};$('#menuButton').onclick=()=>{$('#mobileMenu').hidden=!$('#mobileMenu').hidden};$$('#mobileMenu a').forEach(a=>a.onclick=()=>$('#mobileMenu').hidden=true);$('#year').textContent=new Date().getFullYear();renderProducts();renderCart();
