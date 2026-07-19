@@ -10,8 +10,7 @@ const products = [
   {id:'womens-white-pink',name:"Women's White & Pink Set",price:100,category:['womens'],image:'assets/products/womens-white-pink.jpg',tag:"WOMEN'S COLLECTION",description:'White cropped hoodie and shorts set with bright-pink Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
   {id:'womens-pink-red',name:"Women's Pink & Red Set",price:100,category:['womens'],image:'assets/products/womens-pink-red.jpg',tag:"WOMEN'S COLLECTION",description:'Pink cropped hoodie and shorts set with red graphics and contrast trim.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
   {id:'womens-purple',name:"Women's Purple Set",price:100,category:['womens'],image:'assets/products/womens-purple.jpg',tag:"WOMEN'S COLLECTION",description:'Purple cropped hoodie and shorts set with white Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}}
-,
-{
+},
   id: 'black-white',
   name: 'Black & White Collection',
   price: 125,
