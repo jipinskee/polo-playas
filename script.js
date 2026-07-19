@@ -10,7 +10,7 @@ const products = [
   {id:'womens-white-pink',name:"Women's White & Pink Set",price:100,category:['womens'],image:'assets/products/womens-white-pink.jpg',tag:"WOMEN'S COLLECTION",description:'White cropped hoodie and shorts set with bright-pink Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
   {id:'womens-pink-red',name:"Women's Pink & Red Set",price:100,category:['womens'],image:'assets/products/womens-pink-red.jpg',tag:"WOMEN'S COLLECTION",description:'Pink cropped hoodie and shorts set with red graphics and contrast trim.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
   {id:'womens-purple',name:"Women's Purple Set",price:100,category:['womens'],image:'assets/products/womens-purple.jpg',tag:"WOMEN'S COLLECTION",description:'Purple cropped hoodie and shorts set with white Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}}
-];,
+,
 {
   id: 'black-white',
   name: 'Black & White Collection',
@@ -65,7 +65,7 @@ const products = [
   description: 'Orange matching hoodie and sweatpants with clean white Polo Playas graphics.',
   sizes: ['XS','S','M','L','XL','XXL'],
   stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
-}
+}]
 const $=s=>document.querySelector(s);const $$=s=>[...document.querySelectorAll(s)];const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
 let cart=JSON.parse(localStorage.getItem('pp_cart')||'[]');let currentFilter='all',currentSearch='',currentSort='featured',activeProduct=null,promo=localStorage.getItem('pp_promo')||'';
 function saveCart(){localStorage.setItem('pp_cart',JSON.stringify(cart));renderCart()}
