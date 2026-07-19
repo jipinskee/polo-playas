@@ -10,7 +10,62 @@ const products = [
   {id:'womens-white-pink',name:"Women's White & Pink Set",price:100,category:['womens'],image:'assets/products/womens-white-pink.jpg',tag:"WOMEN'S COLLECTION",description:'White cropped hoodie and shorts set with bright-pink Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
   {id:'womens-pink-red',name:"Women's Pink & Red Set",price:100,category:['womens'],image:'assets/products/womens-pink-red.jpg',tag:"WOMEN'S COLLECTION",description:'Pink cropped hoodie and shorts set with red graphics and contrast trim.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}},
   {id:'womens-purple',name:"Women's Purple Set",price:100,category:['womens'],image:'assets/products/womens-purple.jpg',tag:"WOMEN'S COLLECTION",description:'Purple cropped hoodie and shorts set with white Polo Playas embroidery.',sizes:['XS','S','M','L','XL','XXL'],stock:{XS:5,S:8,M:9,L:7,XL:5,XXL:3}}
-];
+];,
+{
+  id: 'black-white',
+  name: 'Black & White Collection',
+  price: 125,
+  category: ['mens'],
+  image: 'assets/products/black-white.jpg',
+  tag: 'LIMITED COLORWAY',
+  description: 'Black matching set with crisp white Polo Playas graphics.',
+  sizes: ['XS','S','M','L','XL','XXL'],
+  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
+},
+{
+  id: 'white-black',
+  name: 'White & Black Collection',
+  price: 125,
+  category: ['mens'],
+  image: 'assets/products/white-black.jpg',
+  tag: 'LIMITED COLORWAY',
+  description: 'White matching set with bold black Polo Playas graphics.',
+  sizes: ['XS','S','M','L','XL','XXL'],
+  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
+},
+{
+  id: 'snes-gray-purple',
+  name: 'SNES Gray & Purple Collection',
+  price: 135,
+  category: ['mens','rare'],
+  image: 'assets/products/snes-gray-purple.jpg',
+  tag: 'SPECIAL EDITION',
+  description: 'Gray matching set with purple graphics inspired by classic game-console colors.',
+  sizes: ['XS','S','M','L','XL','XXL'],
+  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
+},
+{
+  id: 'playstation-black-multicolor',
+  name: 'PlayStation Black Multicolor',
+  price: 135,
+  category: ['mens','rare'],
+  image: 'assets/products/playstation-black-multicolor.jpg',
+  tag: 'SPECIAL EDITION',
+  description: 'Black matching set with multicolor detailing inspired by classic PlayStation colors.',
+  sizes: ['XS','S','M','L','XL','XXL'],
+  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
+},
+{
+  id: 'orange-white',
+  name: 'Orange & White Collection',
+  price: 125,
+  category: ['mens'],
+  image: 'assets/products/orange-white.jpg',
+  tag: 'LIMITED COLORWAY',
+  description: 'Orange matching hoodie and sweatpants with clean white Polo Playas graphics.',
+  sizes: ['XS','S','M','L','XL','XXL'],
+  stock: {XS:5,S:8,M:10,L:10,XL:7,XXL:4}
+}
 const $=s=>document.querySelector(s);const $$=s=>[...document.querySelectorAll(s)];const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
 let cart=JSON.parse(localStorage.getItem('pp_cart')||'[]');let currentFilter='all',currentSearch='',currentSort='featured',activeProduct=null,promo=localStorage.getItem('pp_promo')||'';
 function saveCart(){localStorage.setItem('pp_cart',JSON.stringify(cart));renderCart()}
